@@ -2,6 +2,14 @@
 
 This project is focused on analyzing and visualizing crime data in Chicago. The data was sourced from a public dataset and has been cleaned and transformed to reveal insights such as crime trends, types of crimes and geographical hotspots.
 
+![chicago crimes data analysis](<Images/5. crimes in chicago.png>)
+
+## Chicago Crimes Power BI Report
+
+This is an interactive report analyzing crime patterns in Chicago. You can explore **most common crimes**, **crime incidents by year**, and **geographical distribution of crimes in Chicago**.
+
+[**Click here to view the interactive Chicago Crimes Power BI Report**](https://app.powerbi.com/view?r=eyJrIjoiYzZiNzNhZjQtMTM5Ny00YjI5LWI0ZDEtODA2YzFlZGM2OTEyIiwidCI6ImU2NTYxMWViLTZkMzgtNGM5MS04NTYxLWFhNjA1NGNkM2QyOCJ9)
+
 ## Project Overview
 
 The objective of this project is to provide an in-depth analysis of crimes committed in Chicago using Power BI for visualization. The analysis covers the most common crimes, geographic crime hotspots, arrest patterns, and trends over time. The dataset includes information on crime types, locations, and arrest statuses from various years, with a focus on the most recent data for 2024.
@@ -9,9 +17,14 @@ The objective of this project is to provide an in-depth analysis of crimes commi
 ### Key Questions Addressed:
 
 - What are the most common crimes committed in Chicago?
+
+* What is the year with the most crimes in Chicago?
+
+* What percentage of crimes resulted in arrests and no arrest?
+
 - Which areas in Chicago experience the highest concentration of crimes?
 
-## Dataset Source:
+### Dataset Source:
 
 The dataset is sourced from [**Google BigQuery**](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=crypto_sui_mainnet_us&page=dataset&project=versatile-field-438118-t7&ws=!1m5!1m4!4m3!1sbigquery-public-data!2schicago_crime!3scrime) and was extracted via **Google BigQuery**. It includes crimes from 2021-2024, with detailed records of each crime including:
 
@@ -68,10 +81,20 @@ The data was cleaned and transformed to remove null values, fix date formats, an
 
 1. **Most Common Crimes in Chicago**:
 
-   - Theft, battery, and deceptive practices were found to be the most common crimes in Chicago, based on 2024 data.
+- **Theft**, **Battery**, and **Deceptive practices** were found to be the most common crimes in Chicago, based on 2024 data. (only 1000 rows of Dataset extracted)
 
-2. **Crime Hotspots**:
+2. **Year with the Most Crimes**:
 
-   - Geographical mapping revealed hotspots in downtown areas, especially near **Fulton River District** and **West Loop**.
+- The year with the highest number of reported crimes in Chicago is **2017**, and 73 in total.
+
+3. **Crimes Resulting in Arrests vs No Arrests**:
+
+- **76.19%** of crimes did not result in an arrest.
+
+* **23.81%** of crimes resulted in an arrest.
+
+4. **Crime Hotspots**:
+
+- Geographical mapping revealed hotspots in downtown areas, especially near **Fulton River District** and **West Loop**.
 
 ![chicago crimes data analysis](<Images/5. crimes in chicago.png>)
